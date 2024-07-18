@@ -7,7 +7,7 @@ const {
   getAllUserDetails,
   updateDisplayPicture,
   getEnrolledCourses,
-} = require("../Controllers/Profile")
+} = require(path.resolve(__dirname, '../Controllers/Profile'));
 
 // ********************************************************************************************************
 //                                      Profile routes
